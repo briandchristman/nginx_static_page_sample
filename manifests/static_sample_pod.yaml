@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: static-page
+spec:
+  containers:
+  - name: docker-reg-container
+    image: briandchristman/static-page:v1.1
+#  imagePullSecrets:
+#  - name: regcred
